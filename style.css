@@ -61,8 +61,17 @@ mix background image and background color */
 .col-2{
     grid-column: span 2;
 }
-@media(max-width:600px){
+
+/*Media Queries*/
+@media(max-width:1024px){
     .cont{
 flex-direction: column;
+    }
+    .gallery{
+        width: 100%;
+    }
+    .box{
+        grid-row: span 1;
+        grid-column: span 3;
     }
 }
