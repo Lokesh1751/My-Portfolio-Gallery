@@ -61,3 +61,8 @@ mix background image and background color */
 .col-2{
     grid-column: span 2;
 }
+@media(max-width:600px){
+    .cont{
+flex-direction: column;
+    }
+}
